@@ -18,5 +18,5 @@ jobs:
       run: docker build . --file Dockerfile --tag docker.doumen-laumen.de/node-wine:latest
     - name: Publish the Docker image
       run: | 
-       docker tag image docker.doumen-laumen.de/node-wine:latest
+       docker tag docker.doumen-laumen.de/node-wine:latest
        docker push docker.doumen-laumen.de/node-wine:latest
